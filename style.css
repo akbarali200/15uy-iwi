@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+    font-size: 20px;
+}
+
+.img_pages {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    letter-spacing: 1px;
+}
+
+.img_pages img {
+    width: 550px;
+    height: 500px;
+
+}
+
+.img_pages .matn {
+    padding: 50px;
+}
+
+.img_pages .matn button {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px 100px;
+    font-size: 20px;
+}
+
+.brands {
+    text-align: center;
+    line-height: 50px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card .cards i,
+.cards2 i {
+    border-radius: 50px;
+    background-color: orangered;
+    color: white;
+    padding: 22px 22px;
+    position: relative;
+    right: 80px;
+    top: 80px;
+}
+
+.card .cards i,
+.cards3 i,
+.cardss .cards4 i,
+.cardsss .card5 i,
+.cardsss .card6 i {
+    border-radius: 50px;
+    background-color: orangered;
+    color: white;
+    padding: 22px 22px;
+    position: relative;
+    right: 80px;
+    top: 80px;
+}
+
+.cardss {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardsss {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.font {
+    text-align: center;
+    line-height: 30px;
+}
+
+.font_img {
+    background-color: orange;
+    display: flex;
+    gap: 30px;
+    padding: 35px 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.font_img .logo {
+    width: 280px;
+    height: 350px;
+    background-color: black;
+    position: relative;
+    bottom: 15px;
+    overflow: hidden;
+}
+
+.font_img .logo img {
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+}
+
+.font_img .logo h1,
+i {
+    color: white;
+}
+
+
+.font_img2 {
+    background-color: orange;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.font_img2 .logo {
+    width: 280px;
+    height: 350px;
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.font_img2 .logo img {
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+}
+
+.font_img2 .logo h1,
+i {
+    color: white;
+}
+
+.font_img3 {
+    background-color: orange;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.font_img3 .logo {
+    width: 280px;
+    height: 350px;
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.font_img3 .logo img {
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+}
+
+.font_img .logo:hover img, 
+.font_img2 .logo:hover img,
+.font_img3 .logo:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.font_img .logo:hover,
+.font_img2 .logo:hover,
+.font_img3 .logo:hover {
+    width: 280px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.wordd {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 30px;
+}
+
+.word {
+    margin: 20px 6%;
+    font-size: 30px;
+}
+
+.word p {
+    color: orange;
+}
+
+.imgg {
+    position: relative;
+    bottom: 500px;
+    margin-left: 500px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: red;
+}
+
+.imgg button {
+    padding: 10px 10px;
+    font-size: 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 40px 200px;
+}
+
+.word .word1 p:hover {
+    width: 38%;
+    height: 10vh;
+    background-color: orange;
+    color: black;
+    padding: 1% 30px;
+    transition: 1s;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.imgg button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+    transition: 1s;
+}
+
+.word .word2 p:hover {
+    width: 38%;
+    height: 10vh;
+    background-color: orange;
+    color: black;
+    padding: 1% 30px;
+    transition: 1s;
+}
+
+.word .word3 p:hover {
+    width: 38%;
+    height: 10vh;
+    background-color: orange;
+    color: black;
+    padding: 1% 30px;
+    transition: 1s;
+}
+
+.word .word4 p:hover {
+    width: 38%;
+    height: 10vh;
+    background-color: orange;
+    color: black;
+    padding: 1% 30px;
+    transition: 1s;
+}
+.header i{
+    color: black;
+}
